@@ -10,7 +10,7 @@
   <img alt="Preview" src="./.github/preview.png">
 </p>
 
-## ✨ Tecnologias
+## ✨ Technologies
 
 This project was built with the following technologies:
 
@@ -38,4 +38,6 @@ This project in under MIT License, Check the [LICENSE](LICENSE.md) for details.
 
 ---
 
-Made with 💜 &nbsp;by Miguel Nogueira 👋🏻 &nbsp;
+## Contact
+
+Miguel Nogueira - [Linkedin](https://www.linkedin.com/in/miguel-nogueira-a5a28a1b5/) - [mglsndc@gmail.com](mailto:mglsndc@gmail.com)
