@@ -10,7 +10,7 @@
   <img alt="Preview" src="./.github/preview.png">
 </p>
 
-## ✨ Technologies
+## Technologies
 
 This project was built with the following technologies:
 
@@ -19,24 +19,59 @@ This project was built with the following technologies:
 - [Express](https://expressjs.com/pt-br/)
 - [JSONWebToken](https://github.com/auth0/node-jsonwebtoken#readme)
 
-## 💻 About the project
+## About the project
 
 Valoriza is a platform to promote the acknowledgment between team members
 
-## 🚀 Get it up and running locally on your machine
+## Installation
 
-- Clone the repo
-- Run `yarn` to install dependencies
-- Run `yarn typeorm migration:run` to create db tables.
-- Run `yarn dev` to get started.
+1. Clone the repo
+ ```
+ 
+    Run `yarn` to install dependencies
+    
+   ```
+2. Install Dependencies 
 
-The app will be available at `http://localhost:3000`
+  ```
+  
+    yarn 
+    
+  ```
+3. Create database tables.
 
-## 📄 License
+ ```
+   
+   yarn typeorm migration:run 
+   
+ ```
 
-This project in under MIT License, Check the [LICENSE](LICENSE.md) for details.
 
----
+4. Start the Project
+
+  ```
+    
+     yarn dev
+    
+  ```
+
+## Contributing
+
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+<!-- LICENSE -->
+
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+<!-- CONTACT -->
 
 ## Contact
 
