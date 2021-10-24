@@ -3,13 +3,14 @@ import express, { Request, Response, NextFunction } from 'express';
 import 'express-async-errors';
 import { router } from './routes';
 import './database';
+import helmet from 'helmet';
 
 const port = process.env.PORT || 3000;
 
 const app = express();
 
+app.use(helmet());
 app.use(express.json());
-
 app.use(router);
 
 app.use((error: Error, req: Request, res: Response, next: NextFunction) => {
