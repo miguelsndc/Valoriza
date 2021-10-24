@@ -4,6 +4,7 @@ import { CreateComplimentController } from './controllers/CreateComplimentContro
 import { CreateTagController } from './controllers/CreateTagController';
 import { CreateUserController } from './controllers/CreateUserController';
 import { ListTagsController } from './controllers/ListTagsController';
+import { ListUsersController } from './controllers/ListUsersController';
 import { ListUserReceivedComplimentsController } from './controllers/ListUserReceivedComplimentsController';
 import { ListUserSentComplimentsController } from './controllers/ListUserSentComplimentsController';
 import { ensureAdmin } from './middlewares/ensureAdmin';
@@ -37,5 +38,6 @@ router.get(
 );
 
 router.get('/tags', ensureAuthenticated, new ListTagsController().handle);
+router.get('/users', ensureAuthenticated, new ListUsersController().handle);
 
 export { router };
