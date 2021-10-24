@@ -36,6 +36,6 @@ router.get(
   new ListUserReceivedComplimentsController().handle
 );
 
-router.get('/tags', new ListTagsController().handle);
+router.get('/tags', ensureAuthenticated, new ListTagsController().handle);
 
 export { router };
