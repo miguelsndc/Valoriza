@@ -28,7 +28,7 @@ Valoriza is a platform to promote the acknowledgment between team members
 1. Clone the repo
  ```
  
-    Run `yarn` to install dependencies
+    https://github.com/miguelsndc/Valoriza.git
     
    ```
 2. Install Dependencies 
